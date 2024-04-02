@@ -1,43 +1,29 @@
-import { useState } from 'react';
+import Heading from './Heading.js';
+import Section from './Section.js';
 
-export default function Form(){
-  const[firstName,setFirstName]=useState('');
-  const[lastName ,setLastName]=useState('');
-
-  const fullName=firstName+''+lastName;
-  function handleFirstNameChange(e){
-    setFirstName(e.target.value);
-
-  }
-
-  function handleLastNameChange(e){
-    setLastName(e.target.value);
-  }
-
-  return(
-    <>
-    <h2>Lets check you In</h2>
-    <label>
-      FirstName:{''}
-      <input 
-      value={firstName}
-      onChange={handleFirstNameChange}
-      
-      />
-    </label>
-
-    <label>
-
-      LastName{''}
-      <input
-      value={lastName}
-      onChange={handleLastNameChange}
-      
-      />
-    </label>
-    <p>Your ticket is readyyy: {fullName}</p>
+export default function Page() {
+  return (
+    <Section >
+      <Heading >Title</Heading>
+      <Heading >Heading 1</Heading>
+      <Heading>Heading 2</Heading>
     
-    
-    </>
-  )
+    <Section >
+      <Heading >Heading 3</Heading>
+      <Heading >Heading 4</Heading>
+      <Heading >Heading 5</Heading>
+      <Section>
+      <Heading >Heading 3</Heading>
+      <Heading >Heading 4</Heading>
+      <Heading >Heading 5</Heading>
+    <Section >
+      <Heading >Heading 3</Heading>
+      <Heading >Heading 4</Heading>
+      <Heading >Heading 5</Heading>
+
+    </Section>
+    </Section>
+    </Section>
+    </Section>
+  );
 }
