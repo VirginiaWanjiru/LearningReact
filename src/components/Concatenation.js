@@ -6,8 +6,9 @@ import React from'react';
 
 const user={
 
-    name:'Hedy Lamarr',
-    imageSize:90,
+    name:'Virginia Wanjiru',
+    imageSize:300,
+    imageSizeUrl:'./images/vg.jpg'
   };
 
   

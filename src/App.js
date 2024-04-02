@@ -1,9 +1,9 @@
 import MyButton from './components/MyButton';
-import  React, { Component } from 'react';
+
 import About from'./components/About.js';
 import Profile from'./components/Concatenation.js';
 import ShoppingList from'./components/RenderingLists.js';
-import handleClick from './components/MyButton';
+import Button1 from './components/UseState2.js';
 
 export default function MyApp(){
   return(
@@ -14,7 +14,8 @@ export default function MyApp(){
           <Profile/>
           <ShoppingList/>
           <handleClick/>
-
+          <Button1/>
+          
           
 
           </div>

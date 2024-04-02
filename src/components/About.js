@@ -3,10 +3,10 @@
 function AboutPage(){
     return(
      <>
-    <h1>Hello there ,<br/>this is the about section</h1>
-    <p>Eheeemmm <br/>Uhhmm Okayy</p>
+    <h1>Age :21 Earth years,<br/>Gender:Female</h1>
+    <p>S.Power:<n/> Crafty & witty</p>
 
-    <img src= "./assets/images/avatar.jpeg" alt="Avatar" classname="avatar"  >
+    <img src='./images/avatar.jpg' alt="Avatar"   >
         
     </img>
 

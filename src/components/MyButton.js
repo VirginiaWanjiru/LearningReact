@@ -6,7 +6,7 @@ function handleClick(){
 }
     return (
         <button onClick={handleClick}>
-            Click Me 
+            Click Me with alert
         </button>
     )
 }
